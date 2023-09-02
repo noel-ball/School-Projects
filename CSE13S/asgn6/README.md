@@ -1,6 +1,6 @@
-###LZ Compression
+# LZ Compression
 
-Included Files:
+## Included Files:
 encode.c
 decode.c
 trie.c
@@ -11,7 +11,7 @@ DESIGN.pdf
 WRITEUP.pdf
 and associated header and object files
 
-Run Instructions:
+## Run Instructions:
 Open terminal in folder with included files
 Run the following commands;
 make
