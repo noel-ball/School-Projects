@@ -1,15 +1,15 @@
-###Graph ADT with FindComponent executable and GraphTest testing harness
+# Graph ADT with FindComponent executable and GraphTest testing harness
 
-Included Files:
-Makefile - Compiler for executable programs
-List.c - Source File for List ADT
-List.h - Header File for List ADT
-Graph.c - Source File for Graph ADT
-Graph.h - Header File for Graph ADT
-FindComponent.c - Executable program, takes input and output files
-GraphTest.c - Testing program using all functionalities of Graph ADT
+## Included Files:
+- Makefile - Compiler for executable programs
+- List.c - Source File for List ADT
+- List.h - Header File for List ADT
+- Graph.c - Source File for Graph ADT
+- Graph.h - Header File for Graph ADT
+- FindComponent.c - Executable program, takes input and output files
+- GraphTest.c - Testing program using all functionalities of Graph ADT
 
-Usage:
+## Usage:
 - make                     		makes FindComponents
 - make GraphTest           		makes GraphTest
 -./FindComponenets <input> <output>	runs FindComponents with specified files
