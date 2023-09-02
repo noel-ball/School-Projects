@@ -1,0 +1,1 @@
+I, Noel Ball, have read and understood the Spring CSE12 syllabus and Personal Responsibility Document. njball 29 September 2022
