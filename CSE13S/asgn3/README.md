@@ -1,6 +1,6 @@
-###sorting
+# Sorting
 
-Included Files:
+## Included Files:
 sorting.c
 batcher.c
 heap.c
@@ -13,14 +13,14 @@ DESIGN.pdf
 WRITEUP.pdf
 and associated object files
 
-Run Instructions:
+## Run Instructions:
 Open terminal in folder with included files
 Run the following commands;
 make
 ./sorting -[arguments]
 make clean
 
-Operation:
+## Operation:
 Running make first cleans sorting to ensure there are no current existing object files. Then the executable and the dependent object files are generated and formatted. 
 
 SYNOPSIS
