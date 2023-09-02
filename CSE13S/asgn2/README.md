@@ -1,6 +1,6 @@
-###mathlib-test
+# mathlib-test
 
-Included Files:
+## Included Files:
 mathlib-test.c
 mathlib.h
 bbp.c
@@ -13,14 +13,14 @@ Makefile
 DESIGN.pdf
 WRITEUP.pdf
 
-Run Instructions:
+## Run Instructions:
 Open terminal in folder with included files
 Run the following commands;
 make
 ./mathlib-test -(arguments)
 make clean
 
-Operation:
+## Operation:
 Running make first cleans mathlib-test to ensure there are no current existing object files. Then the executable and the dependent object files are generated and formatted. 
 
 ./mathlib-test takes the following arguments;
