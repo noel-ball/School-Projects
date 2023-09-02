@@ -1,16 +1,16 @@
-### BigInteger ADT with Arithmetic executable and BigIntegerTest and ListTest harnesses
+# BigInteger ADT with Arithmetic executable and BigIntegerTest and ListTest harnesses
 
-Included Files:
-Makefile           - Compiler for executable programs
-BigInteger.cpp     - Source File for BigInteger ADT
-BigInteger.h       - Header File for BigInteger ADT
-List.cpp           - Source File for List ADT
-List.h             - Header File for List ADT
-Arithmetic.cpp     - Executable client module, takes input and output files
-BigIntegerTest.cpp - Testing program using all functionalities of Matrix ADT
-ListTest.cpp       - Testing program using all functionalities of List ADT
+## Included Files:
+- Makefile           - Compiler for executable programs
+- BigInteger.cpp     - Source File for BigInteger ADT
+- BigInteger.h       - Header File for BigInteger ADT
+- List.cpp           - Source File for List ADT
+- List.h             - Header File for List ADT
+- Arithmetic.cpp     - Executable client module, takes input and output files
+- BigIntegerTest.cpp - Testing program using all functionalities of Matrix ADT
+- ListTest.cpp       - Testing program using all functionalities of List ADT
 
-Usage:
+## Usage:
 - make                     	        makes Arithmetic
 - make BigIntegerTest			makes BigIntegerTest
 - make ListTest                         makes ListTest
