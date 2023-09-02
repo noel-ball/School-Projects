@@ -1,6 +1,6 @@
-###life
+# Game of life
 
-Included Files:
+## Included Files:
 life.c
 universe.c
 Makefile
@@ -8,21 +8,21 @@ DESIGN.pdf
 WRITEUP.pdf
 and associated object files
 
-Run Instructions:
+## Run Instructions:
 Open terminal in folder with included files
 Run the following commands;
 make
 ./life -[arguments]
 make clean
 
-Operation:
+## Operation:
 Running make first cleans life to ensure there are no current existing object files. Then the executable and the dependent object files are generated and formatted, and the ncurses() library is linked.
 
 SYNOPSIS
     Conway's Game of Life
 
 USAGE
-    ./life_amd64 tsn:i:o:h
+    ./life_amd64 -tsnioh
 
 OPTIONS
     -t             Create your universe as a toroidal\n"
