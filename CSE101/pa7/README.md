@@ -1,13 +1,13 @@
-### Dictionary ADT with Order executable and DictionaryTest
+# Dictionary ADT with Order executable and DictionaryTest
 
-Included Files:
-Makefile           - Compiler for executable programs
-Dictionary.cpp     - Source File for Dictionary ADT
-Dictionary.h       - Header File for Dictionary ADT
-Order.cpp          - Executable client module, takes input and output files
-DictionaryTest.cpp - Testing program using all functionalities of Dictionary ADT
+## Included Files:
+- Makefile           - Compiler for executable programs
+- Dictionary.cpp     - Source File for Dictionary ADT
+- Dictionary.h       - Header File for Dictionary ADT
+- Order.cpp          - Executable client module, takes input and output files
+- DictionaryTest.cpp - Testing program using all functionalities of Dictionary ADT
 
-Usage:
+## Usage:
 - make                     	        makes Order
 - make DictionaryTest			makes DictionaryTest
 - ./Order <input> <output>	        runs Order with specified files
