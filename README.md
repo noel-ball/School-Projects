@@ -34,6 +34,7 @@ UCSC programming classwork archive
 
 ## CMPM 120 Spring 2024
 [Game Development Experience](https://github.com/noel-ball/School-Projects/tree/main/CMPM120)
+- Programming and collaboration skills for digital games
 
 ## CSE 114A Fall 2024
 Foundations of Programming Languages
