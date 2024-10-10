@@ -20,15 +20,20 @@ UCSC programming classwork archive
 
 ## CSE102 Fall 2023
 [Intro to Algorithm Analysis](https://github.com/noel-ball/School-Projects/tree/main/CSE102)
+- Mathematical analysis of algorithms
 
 ## CSE 130 Winter 2023
-Principles of Computer Systems Design
+[Principles of Computer Systems Design](https://github.com/noel-ball/School-Projects/tree/main/CSE130)
+- Design and implementation of systems
+- Handling complexity, concurrency, and performance
 
 ## CSE 120 Spring 2024
-Computer Architecture 
+[Computer Architecture](https://github.com/noel-ball/School-Projects/tree/main/CSE120)
+- Processor architecture and design
+- Parallelism and memory systems
 
 ## CMPM 120 Spring 2024
-Game Development Experience
+[Game Development Experience](https://github.com/noel-ball/School-Projects/tree/main/CMPM120)
 
 ## CSE 114A Fall 2024
 Foundations of Programming Languages
