@@ -10,7 +10,7 @@ UCSC programming classwork archive
 - Circuit design using "Digital" logic designer
 - Assembly with RARS RiscV assembler
 
-## CSE13S Winter 2022/2023
+## CSE13S Winter 2022
 [Computer Systems / C Programming](https://github.com/noel-ball/School-Projects/tree/main/CSE13S)
 - Compiling programs with C in Ubuntu Linux environment
 
@@ -18,11 +18,20 @@ UCSC programming classwork archive
 [Data Structures & Algorithms](https://github.com/noel-ball/School-Projects/tree/main/CSE101)
 - Compiling algorithms that use data structures with C and C++ in Ubuntu Linux Environment
 
-## CSE80N Fall 2023
-Intro to Networking
-
 ## CSE102 Fall 2023
-Intro to Algorithm Analysis
+[Intro to Algorithm Analysis](https://github.com/noel-ball/School-Projects/tree/main/CSE102)
 
-## CSE120 Fall 2023
-Computer Architecture
+## CSE 130 Winter 2023
+Principles of Computer Systems Design
+
+## CSE 120 Spring 2024
+Computer Architecture 
+
+## CMPM 120 Spring 2024
+Game Development Experience
+
+## CSE 114A Fall 2024
+Foundations of Programming Languages
+
+## CSE 113 Fall 2024
+Parallel Programming
