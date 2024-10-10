@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(
+                -45deg,
+                rgb(17, 51, 161) 0%,
+                rgb(112, 13, 169) 75%
+            );
+        }
+        h1{
+            margin: 0px;
+            margin-bottom: 10px;
+            font-size: 2.9em;
+            color: lightgrey;
+        }
+        h2{
+            margin: 0px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: lightgrey;
+        }
+    </style>
+    <title>Xolthorpian Escape</title>
+    <script src="./lib/phaser.js"></script>
+    <script src="./src/Scenes/shmup.js"></script>
+    <script src="./src/main.js"></script>
+</head>
+<body>
+    <h1>Xolthorpian Escape</h1>
+    <div id="phaser-game"></div>
+    <div id="display"></div>
+    <h2>Score: <span id="score"></span> Life: <span id="life"></span></h2>
+</body>
+</html>

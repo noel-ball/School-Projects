@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest of Merelda</title>
+    <script src="./lib/phaser.js"></script>
+    <script src="./src/Scenes/HUDLoad.js"></script>
+    <script src="./src/Scenes/Load.js"></script>
+    <script src="./src/Scenes/HudScene.js"></script>
+    <script src="./src/Scenes/Adventure.js"></script>
+    <script src="./src/main.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000000;
+        }
+        #hud-canvas {
+            display: block;
+            width: 100%;
+            height: 25%;
+        }
+        #phaser-game {
+            display: block;
+            width: 100%;
+            height: 75%;
+        }
+    </style>
+</head>
+<body>
+    <div id="hud-canvas"></div>
+    <div id="phaser-game"></div>
+    <span id="description"></span>
+</body>
+</html>

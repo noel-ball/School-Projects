@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "heavyKnightWalk.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 32,
+				"h": 16
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "heavyKnight-1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "heavyKnight-2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 16,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b6149010a14ccd1ad2804ea897cde048:a5bb3f2a06085b4e1a4939869e7ae86f:5ff3bd011336055b0d179172476c4f55$"
+	}
+}

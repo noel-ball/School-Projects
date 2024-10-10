@@ -1,0 +1,599 @@
+{
+    "Title": "Titan Containment Breach",
+    "Credits": "Created by Noel Ball (njball@ucsc.edu).",
+    "InitialLocation": "Starting Page",
+    "Locations": {
+        "Starting Page": {
+            "Body": "<hr>",
+            "Choices": [
+                {
+                    "Text": "Your mission:",
+                    "Target": "Brief"
+                }
+            ]
+        },
+        "Brief": {
+            "Body": "<br>- Establish a connection with the facilities rover 'Cronus'<br><br>- Avoid the hostile subject 'Cerberus'<br><br>- Repair the 'Network Link' broken modules<br><br>- Use the Communications Tower to organize your rescue<br><br><hr>",
+            "Choices": [
+                {
+                    "Text": "Start Terminal",
+                    "Target": "Admin"
+                }
+            ]
+        },
+        "Admin": {
+            "Body": "Cronus Administrator Control",
+            "Choices": [
+                {
+                    "Text": "Access Cronus",
+                    "Target": "Login"
+                },
+                {
+                    "Text": "Data-Base",
+                    "Target": "Data"
+                }
+            ]
+        },
+        "Data": {
+            "Body": "<hr>Page One:<br>Unable, Unafraid, Unfair, Unimpressed, Unlimited, Unspoken<br><br>Page Two:<br>Devout, Divine, Holy, Righteous, Sacred, Spiritual<br><br>Page Three:<br>Angrily, Bravely, Partialy, Proudly, Quickly, Suddenly<br><br>Possible Passwords:<br>Overcharged, Unfaithful, Religiously, Unknown, Ungodly, Quietly, Uneasily, Refortify<hr>",
+            "Choices": [
+                {
+                    "Text": "Go Back",
+                    "Target": "Admin"
+                }
+            ]
+        },
+        "Login": {
+            "Body": "Enter Password:",
+            "Guesses": ["Overcharged", "Unfaithful", "Religiously", "Unknown", "Ungodly", "Quietly", "Uneasily", "Refortify"],
+            "Choices": [
+                {
+                    "Text": "Submit Guess",
+                    "Target": "Cronus"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Admin"
+                }
+            ]
+        },
+        "FailedLogin": {
+            "Body": "<hr>You are out of login attempts, the terminal shuts down and you are forced to either face Cerberus alone or starve"
+        },
+        "Cronus": {
+            "Body": "<hr>Operating Cronus, please enter an instruction:",
+            "Choices": [
+                {
+                    "Text": "Move to next sector",
+                    "Target": "Move"
+                },
+                {
+                    "Text": "Lockdown nearby sector",
+                    "Target": "Lock"
+                },
+                {
+                    "Text": "Use repair tool",
+                    "Target": "Repair"
+                }
+            ]
+        },
+        "Repair": {
+            "Body": "<hr>Repairing Network Link...",
+            "Choices": [
+                {
+                    "Text": "Repair Module",
+                    "Target": "Repair"
+                },
+                {
+                    "Text": "Go Back",
+                    "Target": "Cronus"
+                }
+            ]
+        },
+        "ComT": {
+            "Body": "<hr>Network back online...<br><br>The Communication Tower boots",
+            "Choices": [
+                {
+                    "Text": "Send signal",
+                    "Target": "Fin"
+                }
+            ]
+        },
+        "Fin": {
+            "Body": "<hr>Initiating SOS sequence...<br><br>The sector's gates close keeping your rover safe.<br><br>The tower opens up and extends it's beacon.<br><br>Giving a slight glow as it activates, your SOS is sent to the cosmos.<br><br> Now you can only hope it is even heard."
+        },
+        "Kill": {
+            "Body": "<hr>Cerberus is drawn to the hum of your rover.<br><br>Hunting anything that moves, it tears Cronus to shreds preventing your only way out."
+        },
+        "Move": {
+            "Body": "<hr>Select a sector to move to:",
+            "Choices": [
+                {
+                    "Text": "Go Back",
+                    "Target": "Cronus"
+                }
+            ],
+            "Moves": {
+                "A1": [
+                    {
+                        "Text": "South",
+                        "Target": "A2"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "B1"
+                    }
+                ],
+                "A2": [
+                    {
+                        "Text": "North",
+                        "Target": "A1"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "B2"
+                    }
+                ],
+                "B1": [
+                    {
+                        "Text": "West",
+                        "Target": "A1"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "B2"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "C1"
+                    }
+                ],
+                "B2": [
+                    {
+                        "Text": "West",
+                        "Target": "A2"
+                    },
+                    {
+                        "Text": "North",
+                        "Target": "B1"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "B3"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "C2"
+                    }
+                ],
+                "B3": [
+                    {
+                        "Text": "North",
+                        "Target": "B2"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "B4"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "C3"
+                    }
+                ],
+                "B4": [
+                    {
+                        "Text": "West",
+                        "Target": "A4"
+                    },
+                    {
+                        "Text": "North",
+                        "Target": "B3"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "B5"
+                    }
+                ],
+                "B5": [
+                    {
+                        "Text": "North",
+                        "Target": "B4"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "C5"
+                    }
+                ],
+                "C1": [
+                    {
+                        "Text": "West",
+                        "Target": "B1"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "C2"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "D1"
+                    }
+                ],
+                "C2": [
+                    {
+                        "Text": "West",
+                        "Target": "B2"
+                    },
+                    {
+                        "Text": "North",
+                        "Target": "C1"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "C3"
+                    }
+                ],
+                "C3": [
+                    {
+                        "Text": "West",
+                        "Target": "B3"
+                    },
+                    {
+                        "Text": "North",
+                        "Target": "C2"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "D3"
+                    }
+                ],
+                "C5": [
+                    {
+                        "Text": "West",
+                        "Target": "B5"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "D5"
+                    }
+                ],
+                "D1": [
+                    {
+                        "Text": "West",
+                        "Target": "C1"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "E1"
+                    }
+                ],
+                "D3": [
+                    {
+                        "Text": "West",
+                        "Target": "C3"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "D4"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "E3"
+                    }
+                ],
+                "D4": [
+                    {
+                        "Text": "North",
+                        "Target": "D3"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "D5"
+                    },
+                    {
+                        "Text": "East",
+                        "Target": "E4"
+                    }
+                ],
+                "D5": [
+                    {
+                        "Text": "West",
+                        "Target": "C5"
+                    },
+                    {
+                        "Text": "North",
+                        "Target": "D4"
+                    }
+                ],
+                "E1": [
+                    {
+                        "Text": "West",
+                        "Target": "D1"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "E2"
+                    }                   
+                ],
+                "E2": [
+                    {
+                        "Text": "North",
+                        "Target": "E1"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "E3"
+                    }
+                ],
+                "E3": [
+                    {
+                        "Text": "West",
+                        "Target": "D3"
+                    },
+                    {
+                        "Text": "North",
+                        "Target": "E2"
+                    },
+                    {
+                        "Text": "South",
+                        "Target": "E4"
+                    }
+                ],
+                "E4": [
+                    {
+                        "Text": "West",
+                        "Target": "D4"
+                    },
+                    {
+                        "Text": "North",
+                        "Target": "E3"
+                    }
+                ]
+            }
+        },
+        "Lock": {
+            "Body": "<hr>Select a sector to lock:",
+            "Choices": [
+                {
+                    "Text": "Go Back",
+                    "Target": "Cronus"
+                }
+            ],
+            "Moves": {
+                "A1": [
+                    {
+                        "Text": "South",
+                        "Lock": "A2"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "B1"
+                    }
+                ],
+                "A2": [
+                    {
+                        "Text": "North",
+                        "Lock": "A1"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "B2"
+                    }
+                ],
+                "B1": [
+                    {
+                        "Text": "West",
+                        "Lock": "A1"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "B2"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "C1"
+                    }
+                ],
+                "B2": [
+                    {
+                        "Text": "West",
+                        "Lock": "A2"
+                    },
+                    {
+                        "Text": "North",
+                        "Lock": "B1"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "B3"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "C2"
+                    }
+                ],
+                "B3": [
+                    {
+                        "Text": "North",
+                        "Lock": "B2"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "B4"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "C3"
+                    }
+                ],
+                "B4": [
+                    {
+                        "Text": "West",
+                        "Lock": "A4"
+                    },
+                    {
+                        "Text": "North",
+                        "Lock": "B3"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "B5"
+                    }
+                ],
+                "B5": [
+                    {
+                        "Text": "North",
+                        "Lock": "B4"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "C5"
+                    }
+                ],
+                "C1": [
+                    {
+                        "Text": "West",
+                        "Lock": "B1"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "C2"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "D1"
+                    }
+                ],
+                "C2": [
+                    {
+                        "Text": "West",
+                        "Lock": "B2"
+                    },
+                    {
+                        "Text": "North",
+                        "Lock": "C1"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "C3"
+                    }
+                ],
+                "C3": [
+                    {
+                        "Text": "West",
+                        "Lock": "B3"
+                    },
+                    {
+                        "Text": "North",
+                        "Lock": "C2"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "D3"
+                    }
+                ],
+                "C5": [
+                    {
+                        "Text": "West",
+                        "Lock": "B5"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "D5"
+                    }
+                ],
+                "D1": [
+                    {
+                        "Text": "West",
+                        "Lock": "C1"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "E1"
+                    }
+                ],
+                "D3": [
+                    {
+                        "Text": "West",
+                        "Lock": "C3"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "D4"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "E3"
+                    }
+                ],
+                "D4": [
+                    {
+                        "Text": "North",
+                        "Lock": "D3"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "D5"
+                    },
+                    {
+                        "Text": "East",
+                        "Lock": "E4"
+                    }
+                ],
+                "D5": [
+                    {
+                        "Text": "West",
+                        "Lock": "C5"
+                    },
+                    {
+                        "Text": "North",
+                        "Lock": "D4"
+                    }
+                ],
+                "E1": [
+                    {
+                        "Text": "West",
+                        "Lock": "D1"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "E2"
+                    }                   
+                ],
+                "E2": [
+                    {
+                        "Text": "North",
+                        "Lock": "E1"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "E3"
+                    }
+                ],
+                "E3": [
+                    {
+                        "Text": "West",
+                        "Lock": "D3"
+                    },
+                    {
+                        "Text": "North",
+                        "Lock": "E2"
+                    },
+                    {
+                        "Text": "South",
+                        "Lock": "E4"
+                    }
+                ],
+                "E4": [
+                    {
+                        "Text": "West",
+                        "Lock": "D4"
+                    },
+                    {
+                        "Text": "North",
+                        "Lock": "E3"
+                    }
+                ]
+            }
+        }
+    }
+}
